@@ -124,6 +124,7 @@ main h2 {
   letter-spacing: 5px;
   line-height: 1.5;
   margin: 0;
+  padding-bottom: 10px;
   color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
