@@ -17,7 +17,10 @@ section {
 }
 
 header {
-  background-color: blue;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/Sunset-Morzine.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 200px;
@@ -58,7 +61,11 @@ header a {
 }
 
 footer {
-  background: blueviolet;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/snow-lines.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
   padding: 100px 0;
 }
 footer h3 {
