@@ -7,6 +7,15 @@ body {
   margin: 0 auto;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 header {
   background-color: blue;
   color: white;
@@ -48,7 +57,37 @@ header a {
   display: inline-block;
 }
 
-@media (max-width: 900px) {
+footer {
+  background: blueviolet;
+  padding: 100px 0;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 30px;
   }
